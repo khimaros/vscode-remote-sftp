@@ -1,7 +1,8 @@
 {
-  "name": "sftp-filesystem",
-  "displayName": "sftp-filesystem",
-  "description": "",
+  "name": "vscode-remote-sftp",
+  "displayName": "vscode-remote-sftp",
+  "repository": "https://src.rabidgeek.com/rabidgeek/vscode-remote-sftp",
+  "description": "Remote filesystem extension for Visual Studio Code",
   "version": "0.0.1",
   "publisher": "khimaros",
   "engines": {
@@ -25,7 +26,8 @@
     "typescript": "2.5.2",
     "vscode": "1.1.5",
     "@types/node": "^6.0.40",
-    "@types/ssh2-sftp-client": "^2.0.0"
+    "@types/ssh2-sftp-client": "^2.0.0",
+    "vsce": "^1.35.0"
   },
   "dependencies": {
     "ssh2-sftp-client": "^2.0.1"
